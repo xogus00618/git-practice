@@ -4,4 +4,7 @@ def add(a, b):
 def multiply(a, b):
 	return a * b
 
+def div(a, b):
+	return a / b
+
 print(add(10, 5))
