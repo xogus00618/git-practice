@@ -1,0 +1,7 @@
+name: VAML error
+on: push
+jobs:
+  run:
+    runs-on: ubuntu-latest
+      steps:
+        - run: echo "YAML Syntax Error"
